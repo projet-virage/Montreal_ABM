@@ -118,12 +118,12 @@ end
 
 to importGis ;; Imports raster layers in .asc format
   print "Importing GIS Layers..."
-  gis:load-coordinate-system ("WGS1984.prj")
-  set DA_IDDS gis:load-dataset "DA_ID.asc"
+  gis:load-coordinate-system ("Datasets/MTM8_32188.prj")
+  set DA_IDDS gis:load-dataset "Datasets/DA_ID.asc"
   gis:set-world-envelope-ds gis:envelope-of DA_IDDS
   gis:apply-raster DA_IDDS DA_ID
 
-
+  gis:import-wms-drawing "https://maps.geogratis.gc.ca/wms/CBMT?service=wms&version=1.3.0" "EPSG:32188" "Sub_regional" 180
   ask patches with [DA_ID > 0]
   [
     set pcolor 5
@@ -149,45 +149,45 @@ to importGis ;; Imports raster layers in .asc format
   ;gis:apply-raster europeansDs europeans
 
 
-  set averageRentDs gis:load-dataset "monrent.asc"
+  set averageRentDs gis:load-dataset "Datasets/monrent.asc"
   gis:apply-raster averageRentDs averageRent
 
-  set averageIncomeDs gis:load-dataset "avgincome.asc"
+  set averageIncomeDs gis:load-dataset "Datasets/avgincome.asc"
   gis:apply-raster averageIncomeDs averageIncome
 
-  set Household1Ds gis:load-dataset "household1.asc"
+  set Household1Ds gis:load-dataset "Datasets/household1.asc"
   gis:apply-raster Household1Ds Household1
 
-  set Household2Ds gis:load-dataset "household2.asc"
+  set Household2Ds gis:load-dataset "Datasets/household2.asc"
   gis:apply-raster Household2Ds Household2
 
-  set Household3Ds gis:load-dataset "household3.asc"
+  set Household3Ds gis:load-dataset "Datasets/household3.asc"
   gis:apply-raster Household3Ds Household3
 
-  set Household4Ds gis:load-dataset "household4.asc"
+  set Household4Ds gis:load-dataset "Datasets/household4.asc"
   gis:apply-raster Household4Ds Household4
 
-  set Household5Ds gis:load-dataset "household5.asc"
+  set Household5Ds gis:load-dataset "Datasets/household5.asc"
   gis:apply-raster Household5Ds Household5
 
 ;;;;;;;;;;;;;;;;;;;;;;;; The following variables are represented as binary rasters
 
-  set resDS gis:load-dataset "residential.asc"
+  set resDS gis:load-dataset "Datasets/residential.asc"
   gis:apply-raster resDS is_res
 
-  set busDs gis:load-dataset  "stmstations.asc"
+  set busDs gis:load-dataset  "Datasets/stmstations.asc"
   gis:apply-raster busDs bus
 
 
-  set schoolsDs gis:load-dataset "schools.asc"
+  set schoolsDs gis:load-dataset "Datasets/schools.asc"
   gis:apply-raster schoolsDs school
 
 
-  set parksDs gis:load-dataset "park.asc"
+  set parksDs gis:load-dataset "Datasets/park.asc"
   gis:apply-raster parksDs park
 
 
-  set commerceDs gis:load-dataset "commercial.asc"
+  set commerceDs gis:load-dataset "Datasets/commercial.asc"
   gis:apply-raster commerceDs commerce
 
   ask patches with [averageRent = 0]
@@ -409,8 +409,8 @@ end
 GRAPHICS-WINDOW
 400
 50
-1510
-704
+1267
+703
 -1
 -1
 1.4302
@@ -424,7 +424,7 @@ GRAPHICS-WINDOW
 0
 1
 0
-770
+600
 -450
 0
 1

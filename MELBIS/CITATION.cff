@@ -1,0 +1,52 @@
+abstract: 'MELBIS-V1 is a spatially explicit agent-based model that allows the geospatial
+  simulation of the decision-making process of newcomers arriving in the bilingual
+  cities and boroughs of the island of Montreal, Quebec in CANADA, and the resulting
+  urban segregation spatial patterns.  The model was implemented in NetLogo, using
+  geospatial raster datasets of 120m spatial resolution.
+
+
+  MELBIS-V2 enhances  MELBIS-V1 to implement and simulate the decision-making processes
+  of incoming immigrants, and to analyze the resulting spatial patterns of segregation
+  as immigrants arrive and settle in various cities in Canada. The arrival and segregation
+  of immigrants is modeled with MELBIS-V2 and compared for three major Canadian immigration
+  gateways, including the City of Toronto, Metro Vancouver, and the City of Calgary.'
+authors:
+- affiliation: University of Montreal
+  email: l.perez@umontreal.ca
+  family-names: Perez
+  given-names: Liliana
+  orcid: https://orcid.org/0000-0002-6599-9893
+- affiliation: Simon Fraser University
+  email: suzanad@sfu.ca
+  family-names: Dragicevic
+  given-names: Suzana
+- affiliation: George Mason University
+  email: tander6@gmu.edu
+  family-names: Anderson
+  given-names: Taylor
+- affiliation: "Hydro-Qu\xE9bec"
+  email: jonathangaudreau87@gmail.com
+  family-names: Gaudreau
+  given-names: Jonathan
+- affiliation: Simon Fraser University
+  email: aaron_leung@sfu.ca
+  family-names: Leung
+  given-names: Aaron
+cff-version: 1.2.0
+date-released: '2021-06-14'
+identifiers:
+- type: url
+  value: https://www.comses.net/codebases/b4a18765-2f65-4010-b19f-b32dbc23d8a6/releases/1.1.0/
+keywords:
+- agent-based model
+- immigration
+- NetLogo
+- Panethnicity
+- segregation model
+- urban
+license: CC-BY-4.0
+message: If you use this software, please cite it using the metadata from this file.
+title: Mobility, Ethnicity, and Language-Based Immigrant Settlement Model - MELBIS
+type: software
+url: https://www.comses.net/codebases/b4a18765-2f65-4010-b19f-b32dbc23d8a6/releases/1.1.0/
+version: 1.1.0

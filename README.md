@@ -1,6 +1,12 @@
 # Montreal_ABM
 Household Mobility on Montreal Island Considering Socio-Economic Attributes and Urban Structure
 
+The objective of this repo is to build a prototype to illustrate how ABM can be leveraged to simulate dynamic social phenomena to show to Virgae commeittee members who would be less knowldgeable of ABM and simulations.
+
+A first prototype developed by Navid (Virage PDF) can be found in `.\Navid\`. A second one, based on Liliana's MELBIS model is stored unders `.\MELBIS\`.
+
+## Navid's prototype
+
 This prototype model, implemented in NetLogo, simulates the movement of households across Montreal Island, treating each household as an individual agent. It is based on the article _From Agent-Based Modeling to Urban Policy Strategy: Census-Validated Insights into
 Immigrant Settlement and Diversity in Metro Vancouver_, to be published.
 
@@ -18,4 +24,10 @@ _Fig 1: Initializing Montréal ABM in NetLogo_
 
 ![Fig 2: NetLogo running ABM](resources\NL_Mtl_run.PNG)
 _Fig 2: Running Montréal ABM in NetLogo_
+
+## MELBIS model
+
+Based on the [published MELBIS, v2](https://www.comses.net/codebases/b4a18765-2f65-4010-b19f-b32dbc23d8a6/releases/1.1.0/), model.
+
+_NB_ The original v2 model running on NetLogo 6.4.0 has been ported to NetLogo 7.0.3. See `MELBIS\code\MELBIS-V2.nlogox`.
 

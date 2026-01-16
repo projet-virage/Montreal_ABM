@@ -1,0 +1,58 @@
+﻿Mobility, Ethnicity, and Language-Based Immigrant Settlement (MELBIS) Model
+
+Instructions to Run the Model
+
+1) Ensure you have the following raster (.asc) files. Demo files are enclosed with the accompanying .shp files:
+
+- 2011_africans.asc
+- 2011_americans.asc
+- 2011_asians.asc
+- 2011_asiansubset.asc
+- 2011_chinese.asc
+- 2011_commerce.asc
+- 2011_english.asc
+- 2011_europeans.asc
+- 2011_medage.asc
+- 2011_medincome.asc
+- 2011_parks.asc
+- 2011_pop.asc
+- 2011_res.asc
+- 2011_schools.asc
+- 2011_southasians.asc
+- 2011_transit.asc
+
+If you are creating your own raster datasets, ensure the .asc file matches the above file names. The resolution of the dataset is 120m x 120m. Discrete features such as the location of transit stops, schools, and areas zoned for residential, commercial, and recreation were extracted to separate raster layers where a value of 1 indicates the presence of these features and 0 represents the absence. 
+
+2) Place all raster files in the same local folder along with the NetLogo file. 
+
+3) Open the model in NetLogo (MELBIS V1 or V2). Change the model settings to ensure that your dataset matches the raster dimensions. By default with the given Vancouver dataset, the dimensions is 621 x 526. 
+
+4) By default, the model is set to run the disaggregated version of the model which spilts the “Asian” category into three subcategories: chinese, south asian, other asians (asian subset). References to the aggregate variable are commented out. To run the aggregate version, comment out the disaggregate categories and commands and remove the comment notation from the aggregate variables. This can be done in the code section. 
+
+5) Adjust the desired neighbour and number of buses (transit) stop slider. Desired Neighbours represents the percentage of similar ethnicity on a given patch relative to a given agent. Agents will look for patches where the similarity meets or exceeds their Desired Neighbour threshold and meets or exceeds the number of transit stops within its proximity. 
+
+6) Click setup. NetLogo will load all of the raster datasets and conduct the mean calculations. Setup is complete when NetLogo reports “finished mean values computation”, displays the raster file, and the randomly generated agents.
+
+7) Click go. NetLogo will begin to run through the decision-making steps. After two ticks, the satisfaction graph will begin to display data. 
+
+8) Once all five ticks are complete, click Export to Shapefile to export the data for processing in ArcGIS. 
+
+Running the Model in BehaviourSpace
+
+1) Running the model in BehaviourSpace automates the process of running multiple iterations. By default, BehaviourSpace is set to export each shapefile using the following naming format: DNxx,NByy-zz where x represents the desired neighbour threshold, y represents the number of buses, and z represents the run number. 
+
+2) adjust the parameters and repetitions as needed ensuring that the experiment name remains consistent. 
+
+Papers Published Using this Model
+
+Perez L, Dragicevic S, Gaudreau J (2019) A geospatial agent-based model of the spatial urban dynamics of immigrant population: A study of the island of Montreal, Canada. PLoS ONE 14(7): e0219188. https://doi.org/10.1371/journal.pone.0219188
+
+Anderson, T., Leung, A., Perez, L. et al. Investigating the Effects of Panethnicity in Geospatial Models of Segregation. Appl. Spatial Analysis 14, 273–295 (2021). https://doi.org/10.1007/s12061-020-09355-2
+
+Anderson, T, Leung, A, Dragicevic, S, Perez, L. Modeling the geospatial dynamics of residential segregation in three Canadian cities: An agent‐based approach. Transactions in GIS. 2021; 25(2): 948 – 967. https://doi.org/10.1111/tgis.12712 
+
+
+
+
+
+

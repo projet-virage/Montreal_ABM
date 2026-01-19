@@ -167,86 +167,86 @@ end
 to importGis ;; Imports raster layers in .asc format
   print "Importing GIS Layers..."
   ask patches [set pcolor white]
-  set resDS gis:load-dataset "../data/../data/2011_res.asc"
+  set resDS gis:load-dataset "../data2/2011_res.asc"
   gis:set-world-envelope-ds gis:envelope-of resDS
   gis:apply-raster resDS is_res
   ask patches with [is_res = 1] [set pcolor gray + 1]
 
 ;;;;;;;;;;;;;;;;;;;;;;;; Population datasets represent the percentage of population with the given variable present in a cell. Percentages are calculated using Statistic Canada Data. -JLK/AL
 
-  set africansDs gis:load-dataset "../data/2011_africans.asc"
+  set africansDs gis:load-dataset "../data2/2011_africans.asc"
   gis:apply-raster africansDs africans
   ask patches with [africans > 20] [set pcolor black]
 
-  set asiansDs gis:load-dataset "../data/2011_asians.asc"
+  set asiansDs gis:load-dataset "../data2/2011_asians.asc"
   gis:apply-raster asiansDs asians
   ;ask patches with [asians > 20] [set pcolor orange]
 
-  set chineseDs gis:load-dataset "../data/2011_chinese.asc"
+  set chineseDs gis:load-dataset "../data2/2011_chinese.asc"
   gis:apply-raster chineseDs chinese
   ;ask patches with [asians > 20] [set pcolor orange]
 
-  set southasianDs gis:load-dataset "../data/2011_southasians.asc"
+  set southasianDs gis:load-dataset "../data2/2011_southasians.asc"
   gis:apply-raster southasianDs southasians
 
-  set asiansubsetDs gis:load-dataset "../data/2011_asianssubset.asc"
+  set asiansubsetDs gis:load-dataset "../data2/2011_asianssubset.asc"
   gis:apply-raster asiansubsetDs asiansubsets
 
-  set americansDs gis:load-dataset "../data/2011_americans.asc"
+  set americansDs gis:load-dataset "../data2/2011_americans.asc"
   gis:apply-raster americansDs americans
   ;ask patches with [americans > 20] [set pcolor green]
 
-  set europeansDs gis:load-dataset "../data/2011_europeans.asc"
+  set europeansDs gis:load-dataset "../data2/2011_europeans.asc"
   gis:apply-raster europeansDs europeans
   ;ask patches with [europeans > 20] [set pcolor red]
 
-  ;set childrenDs gis:load-dataset "../data/2011_children.asc"
+  ;set childrenDs gis:load-dataset "../data2/2011_children.asc"
   ;gis:apply-raster childrenDs children
   ;ask patches with [children > 1] [set pcolor blue]
 
-  ;set enFrDs gis:load-dataset "../data/2011_En_Fr.asc"
+  ;set enFrDs gis:load-dataset "../data2/2011_En_Fr.asc"
   ;gis:apply-raster enFrDs enFr
   ;ask patches with [enFr > 20] [set pcolor brown]
 
-  set englishDs gis:load-dataset "../data/2011_english.asc"
+  set englishDs gis:load-dataset "../data2/2011_english.asc"
   gis:apply-raster englishDs english
   ;ask patches with [english > 30] [set pcolor blue]
 
-  ;set frenchDs gis:load-dataset "../data/2011_french.asc"
+  ;set frenchDs gis:load-dataset "../data2/2011_french.asc"
   ;gis:apply-raster frenchDs french
   ;ask patches with [french > 30] [set pcolor pink]
 
-  set medAgeDs gis:load-dataset "../data/2011_medage.asc"
+  set medAgeDs gis:load-dataset "../data2/2011_medage.asc"
   gis:apply-raster medAgeDs medAge
   ;ask patches with [medAge > 50] [set pcolor green]
 
-  set medIncomeDs gis:load-dataset "../data/2011_medincome.asc"
+  set medIncomeDs gis:load-dataset "../data2/2011_medincome.asc"
   gis:apply-raster medIncomeDs medIncome
   ;ask patches with [medIncome > 50000] [set pcolor red]
 
-  set populationDs gis:load-dataset "../data/2011_pop.asc"
+  set populationDs gis:load-dataset "../data2/2011_pop.asc"
   gis:apply-raster populationDs population
   ;ask patches with [population > 3000] [set pcolor white]
 
 ;;;;;;;;;;;;;;;;;;;;;;;; The following variables are represented as binary rasters -JLK
 
-  set busDs gis:load-dataset "../data/2011_transit.asc" ;; transit for Vancouver is both SkyTrain and bus- ACL
+  set busDs gis:load-dataset "../data2/2011_transit.asc" ;; transit for Vancouver is both SkyTrain and bus- ACL
   gis:apply-raster busDs bus
   ask patches with [bus = -3.4] [set bus 0]
 
-  set schoolsDs gis:load-dataset "../data/2011_schools.asc"
+  set schoolsDs gis:load-dataset "../data2/2011_schools.asc"
   gis:apply-raster schoolsDs school
   ask patches with [school = -3.4] [set school 0]
 
-  ;set metroDs gis:load-dataset "../data/2011_metro.asc" commented out because 2011_transit.asc covers both SkyTrain and buses for Vancouver- ACL
+  ;set metroDs gis:load-dataset "../data2/2011_metro.asc" commented out because 2011_transit.asc covers both SkyTrain and buses for Vancouver- ACL
   ;gis:apply-raster metroDs metro
   ;ask patches with [metro = -3.4] [set metro 0]
 
-  set parksDs gis:load-dataset "../data/2011_parks.asc"
+  set parksDs gis:load-dataset "../data2/2011_parks.asc"
   gis:apply-raster parksDs park
   ask patches with [park = -3.4] [set park 0]
 
-  set commerceDs gis:load-dataset "../data/2011_commerce.asc"
+  set commerceDs gis:load-dataset "../data2/2011_commerce.asc"
   gis:apply-raster commerceDs commerce
   ask patches with [commerce = -3.4] [set commerce 0]
 

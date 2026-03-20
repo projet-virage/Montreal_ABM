@@ -31,3 +31,8 @@ Based on the [published MELBIS, v2](https://www.comses.net/codebases/b4a18765-2f
 
 _NB_ The original v2 model running on NetLogo 6.4.0 has been ported to NetLogo 7.0.3. See `MELBIS\code\MELBIS-V2.nlogox`.
 
+## Navid's prototype, take 2
+
+Follwoing discussions in the modelling workgroup, we decide to build a active transport ABM prototype. The prototype, developped by Navid, is based on the paper [_A high resolution agent-based model to support walk-bicycle infrastructure investment decisions: A case study with New York City_, Aziz et al., 2018](https://doi.org/10.1016/j.trc.2017.11.008). It should allow to test bike lane interventions.
+
+One of the required dataset is the street network, with basic attributes (street length, existing bike lanes, etc.), in order to compute shortest path distances between home and work place for the agents. See `Navid\data_roadnetwork\mtm8\etl_graphml_views.sql` and `Navid\data_roadnetwork\mtm8\navid_streetnetwork.nlogox`.

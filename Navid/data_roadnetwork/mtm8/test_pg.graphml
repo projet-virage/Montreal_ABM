@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns/graphml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns/graphml">
+  <key id="YCOR" for="node" attr.name="YCOR" attr.type="double"/>
+  <key id="HIDDEN?" for="node" attr.name="HIDDEN?" attr.type="boolean"/>
+  <key id="XCOR" for="node" attr.name="XCOR" attr.type="double"/>
+  <key id="SIZE" for="node" attr.name="SIZE" attr.type="double"/>
+  <key id="NODE_ID" for="node" attr.name="NODE_ID" attr.type="double"/>
+  <key id="HEADING" for="node" attr.name="HEADING" attr.type="double"/>
+  <key id="SHAPE" for="node" attr.name="SHAPE" attr.type="string"/>
+  <key id="LABEL-COLOR" for="node" attr.name="LABEL-COLOR" attr.type="double"/>
+  <key id="PEN-SIZE" for="node" attr.name="PEN-SIZE" attr.type="double"/>
+  <key id="PEN-MODE" for="node" attr.name="PEN-MODE" attr.type="string"/>
+  <key id="COLOR" for="node" attr.name="COLOR" attr.type="double"/>
+  <key id="LABEL" for="node" attr.name="LABEL" attr.type="string"/>
+  <key id="BREED" for="node" attr.name="BREED" attr.type="string"/>
+  <key id="WHO" for="node" attr.name="WHO" attr.type="double"/>
+  <key id="SHAPE" for="edge" attr.name="SHAPE" attr.type="string"/>
+  <key id="LABEL-COLOR" for="edge" attr.name="LABEL-COLOR" attr.type="double"/>
+  <key id="HIDDEN?" for="edge" attr.name="HIDDEN?" attr.type="boolean"/>
+  <key id="END1" for="edge" attr.name="END1" attr.type="string"/>
+  <key id="COLOR" for="edge" attr.name="COLOR" attr.type="double"/>
+  <key id="TIE-MODE" for="edge" attr.name="TIE-MODE" attr.type="string"/>
+  <key id="END2" for="edge" attr.name="END2" attr.type="string"/>
+  <key id="LABEL" for="edge" attr.name="LABEL" attr.type="string"/>
+  <key id="BREED" for="edge" attr.name="BREED" attr.type="string"/>
+  <key id="THICKNESS" for="edge" attr.name="THICKNESS" attr.type="double"/>
+  <key id="STREET_LEN" for="edge" attr.name="STREET_LEN" attr.type="double"/>
+  <key id="IS_BIKELANE" for="edge" attr.name="IS_BIKELANE" attr.type="boolean"/>
+  <graph edgedefault="directed">
+    <node id="node 0">
+      <data key="XCOR">16.18541223005741</data>
+      <data key="YCOR">-1.2866821212228388</data>
+      <data key="NODE_ID">2369234</data>
+      <data key="BREED">nodes</data>
+      <data key="WHO">0</data>
+    </node>
+    <node id="node 1">
+      <data key="XCOR">-6.300551191528939</data>
+      <data key="YCOR">-10.6511936156312</data>
+      <data key="NODE_ID">2372344</data>
+      <data key="BREED">nodes</data>
+      <data key="WHO">1</data>
+    </node>
+    <node id="node 2">
+      <data key="XCOR">5.8813802039767324</data>
+      <data key="YCOR">-2.2630464575486258</data>
+      <data key="NODE_ID">2375082</data>
+      <data key="BREED">nodes</data>
+      <data key="WHO">2</data>
+    </node>
+    <node id="node 3">
+      <data key="XCOR">0.9240190375494421</data>
+      <data key="YCOR">0.8873754029627889</data>
+      <data key="NODE_ID">2375235</data>
+      <data key="BREED">nodes</data>
+      <data key="WHO">3</data>
+    </node>
+    <node id="node 4">
+      <data key="XCOR">12.537576781873213</data>
+      <data key="YCOR">-16.500000000058208</data>
+      <data key="NODE_ID">2375077</data>
+      <data key="BREED">nodes</data>
+      <data key="WHO">4</data>
+    </node>
+    <node id="node 5">
+      <data key="XCOR">16.500000000003638</data>
+      <data key="YCOR">-9.342818454257213</data>
+      <data key="NODE_ID">2375078</data>
+      <data key="BREED">nodes</data>
+      <data key="WHO">5</data>
+    </node>
+    <node id="node 6">
+      <data key="XCOR">9.06567324003845</data>
+      <data key="YCOR">3.4437131967861205</data>
+      <data key="NODE_ID">2375083</data>
+      <data key="BREED">nodes</data>
+      <data key="WHO">6</data>
+    </node>
+    <node id="node 7">
+      <data key="XCOR">-3.326020614720619</data>
+      <data key="YCOR">-6.18521650711773</data>
+      <data key="NODE_ID">2375282</data>
+      <data key="BREED">nodes</data>
+      <data key="WHO">7</data>
+    </node>
+    <node id="node 8">
+      <data key="XCOR">-6.174100294570962</data>
+      <data key="YCOR">5.5338051315629855</data>
+      <data key="NODE_ID">2380987</data>
+      <data key="BREED">nodes</data>
+      <data key="WHO">8</data>
+    </node>
+    <node id="node 9">
+      <data key="XCOR">12.812047478371824</data>
+      <data key="YCOR">10.359244151681196</data>
+      <data key="NODE_ID">2375806</data>
+      <data key="BREED">nodes</data>
+      <data key="WHO">9</data>
+    </node>
+    <node id="node 10">
+      <data key="XCOR">-13.974269966140128</data>
+      <data key="YCOR">12.263488327909727</data>
+      <data key="NODE_ID">2381760</data>
+      <data key="BREED">nodes</data>
+      <data key="WHO">10</data>
+    </node>
+    <node id="node 11">
+      <data key="XCOR">-9.054172017567907</data>
+      <data key="YCOR">8.124412371194921</data>
+      <data key="NODE_ID">2381758</data>
+      <data key="BREED">nodes</data>
+      <data key="WHO">11</data>
+    </node>
+    <node id="node 12">
+      <data key="XCOR">-9.751105272793211</data>
+      <data key="YCOR">8.524896570073906</data>
+      <data key="NODE_ID">2381759</data>
+      <data key="BREED">nodes</data>
+      <data key="WHO">12</data>
+    </node>
+    <node id="node 13">
+      <data key="XCOR">-9.637395392910548</data>
+      <data key="YCOR">7.378440655302256</data>
+      <data key="NODE_ID">2381744</data>
+      <data key="BREED">nodes</data>
+      <data key="WHO">13</data>
+    </node>
+    <node id="node 14">
+      <data key="XCOR">-15.210989535451517</data>
+      <data key="YCOR">12.170359370065853</data>
+      <data key="NODE_ID">2381762</data>
+      <data key="BREED">nodes</data>
+      <data key="WHO">14</data>
+    </node>
+    <node id="node 15">
+      <data key="XCOR">-16.499999999996362</data>
+      <data key="YCOR">10.394630253489595</data>
+      <data key="NODE_ID">2381846</data>
+      <data key="BREED">nodes</data>
+      <data key="WHO">15</data>
+    </node>
+    <node id="node 16">
+      <data key="XCOR">-3.9543045198915934</data>
+      <data key="YCOR">16.499999999941792</data>
+      <data key="NODE_ID">2381778</data>
+      <data key="BREED">nodes</data>
+      <data key="WHO">16</data>
+    </node>
+    <node id="node 17">
+      <data key="XCOR">-15.743914025508275</data>
+      <data key="YCOR">11.403298678516876</data>
+      <data key="NODE_ID">2381761</data>
+      <data key="BREED">nodes</data>
+      <data key="WHO">17</data>
+    </node>
+    <edge source="node 2" target="node 6">
+      <data key="END1">(node 2)</data>
+      <data key="END2">(node 6)</data>
+      <data key="BREED">links</data>
+      <data key="STREET_LEN">70</data>
+      <data key="IS_BIKELANE">false</data>
+    </edge>
+    <edge source="node 5" target="node 2">
+      <data key="END1">(node 5)</data>
+      <data key="END2">(node 2)</data>
+      <data key="BREED">links</data>
+      <data key="STREET_LEN">137</data>
+      <data key="IS_BIKELANE">true</data>
+    </edge>
+    <edge source="node 2" target="node 3">
+      <data key="END1">(node 2)</data>
+      <data key="END2">(node 3)</data>
+      <data key="BREED">links</data>
+      <data key="STREET_LEN">63</data>
+      <data key="IS_BIKELANE">true</data>
+    </edge>
+    <edge source="node 1" target="node 7">
+      <data key="END1">(node 1)</data>
+      <data key="END2">(node 7)</data>
+      <data key="BREED">links</data>
+      <data key="STREET_LEN">57</data>
+      <data key="IS_BIKELANE">false</data>
+    </edge>
+    <edge source="node 7" target="node 3">
+      <data key="END1">(node 7)</data>
+      <data key="END2">(node 3)</data>
+      <data key="BREED">links</data>
+      <data key="STREET_LEN">88</data>
+      <data key="IS_BIKELANE">false</data>
+    </edge>
+    <edge source="node 7" target="node 4">
+      <data key="END1">(node 7)</data>
+      <data key="END2">(node 4)</data>
+      <data key="BREED">links</data>
+      <data key="STREET_LEN">204</data>
+      <data key="IS_BIKELANE">false</data>
+    </edge>
+    <edge source="node 6" target="node 9">
+      <data key="END1">(node 6)</data>
+      <data key="END2">(node 9)</data>
+      <data key="BREED">links</data>
+      <data key="STREET_LEN">84</data>
+      <data key="IS_BIKELANE">false</data>
+    </edge>
+    <edge source="node 0" target="node 6">
+      <data key="END1">(node 0)</data>
+      <data key="END2">(node 6)</data>
+      <data key="BREED">links</data>
+      <data key="STREET_LEN">92</data>
+      <data key="IS_BIKELANE">false</data>
+    </edge>
+    <edge source="node 3" target="node 8">
+      <data key="END1">(node 3)</data>
+      <data key="END2">(node 8)</data>
+      <data key="BREED">links</data>
+      <data key="STREET_LEN">91</data>
+      <data key="IS_BIKELANE">true</data>
+    </edge>
+    <edge source="node 13" target="node 8">
+      <data key="END1">(node 13)</data>
+      <data key="END2">(node 8)</data>
+      <data key="BREED">links</data>
+      <data key="STREET_LEN">43</data>
+      <data key="IS_BIKELANE">true</data>
+    </edge>
+    <edge source="node 11" target="node 12">
+      <data key="END1">(node 11)</data>
+      <data key="END2">(node 12)</data>
+      <data key="BREED">links</data>
+      <data key="STREET_LEN">9</data>
+      <data key="IS_BIKELANE">false</data>
+    </edge>
+    <edge source="node 8" target="node 11">
+      <data key="END1">(node 8)</data>
+      <data key="END2">(node 11)</data>
+      <data key="BREED">links</data>
+      <data key="STREET_LEN">43</data>
+      <data key="IS_BIKELANE">true</data>
+    </edge>
+    <edge source="node 11" target="node 10">
+      <data key="END1">(node 11)</data>
+      <data key="END2">(node 10)</data>
+      <data key="BREED">links</data>
+      <data key="STREET_LEN">72</data>
+      <data key="IS_BIKELANE">false</data>
+    </edge>
+    <edge source="node 17" target="node 13">
+      <data key="END1">(node 17)</data>
+      <data key="END2">(node 13)</data>
+      <data key="BREED">links</data>
+      <data key="STREET_LEN">79</data>
+      <data key="IS_BIKELANE">false</data>
+    </edge>
+    <edge source="node 12" target="node 14">
+      <data key="END1">(node 12)</data>
+      <data key="END2">(node 14)</data>
+      <data key="BREED">links</data>
+      <data key="STREET_LEN">71</data>
+      <data key="IS_BIKELANE">false</data>
+    </edge>
+    <edge source="node 11" target="node 16">
+      <data key="END1">(node 11)</data>
+      <data key="END2">(node 16)</data>
+      <data key="BREED">links</data>
+      <data key="STREET_LEN">104</data>
+      <data key="IS_BIKELANE">false</data>
+    </edge>
+    <edge source="node 15" target="node 13">
+      <data key="END1">(node 15)</data>
+      <data key="END2">(node 13)</data>
+      <data key="BREED">links</data>
+      <data key="STREET_LEN">84</data>
+      <data key="IS_BIKELANE">false</data>
+    </edge>
+  </graph>
+</graphml>

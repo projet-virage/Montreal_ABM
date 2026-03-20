@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns/graphml"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
+xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns/graphml">
+<key id="YCOR" for="node" attr.name="YCOR" attr.type="double"/>
+<key id="HIDDEN?" for="node" attr.name="HIDDEN?" attr.type="boolean"/>
+<key id="XCOR" for="node" attr.name="XCOR" attr.type="double"/>
+<key id="SIZE" for="node" attr.name="SIZE" attr.type="double"/>
+<key id="NODE_ID" for="node" attr.name="NODE_ID" attr.type="double"/>
+<key id="HEADING" for="node" attr.name="HEADING" attr.type="double"/>
+<key id="SHAPE" for="node" attr.name="SHAPE" attr.type="string"/>
+<key id="LABEL-COLOR" for="node" attr.name="LABEL-COLOR" attr.type="double"/>
+<key id="PEN-SIZE" for="node" attr.name="PEN-SIZE" attr.type="double"/>
+<key id="PEN-MODE" for="node" attr.name="PEN-MODE" attr.type="string"/>
+<key id="COLOR" for="node" attr.name="COLOR" attr.type="double"/>
+<key id="LABEL" for="node" attr.name="LABEL" attr.type="string"/>
+<key id="BREED" for="node" attr.name="BREED" attr.type="string"/>
+<key id="WHO" for="node" attr.name="WHO" attr.type="double"/>
+<key id="SHAPE" for="edge" attr.name="SHAPE" attr.type="string"/>
+<key id="LABEL-COLOR" for="edge" attr.name="LABEL-COLOR" attr.type="double"/>
+<key id="HIDDEN?" for="edge" attr.name="HIDDEN?" attr.type="boolean"/>
+<key id="END1" for="edge" attr.name="END1" attr.type="string"/>
+<key id="COLOR" for="edge" attr.name="COLOR" attr.type="double"/>
+<key id="TIE-MODE" for="edge" attr.name="TIE-MODE" attr.type="string"/>
+<key id="END2" for="edge" attr.name="END2" attr.type="string"/>
+<key id="LABEL" for="edge" attr.name="LABEL" attr.type="string"/>
+<key id="BREED" for="edge" attr.name="BREED" attr.type="string"/>
+<key id="THICKNESS" for="edge" attr.name="THICKNESS" attr.type="double"/>
+<graph edgedefault="directed">
+<node id="node 0">
+<data key="YCOR">-1.2515083178379722</data>
+<data key="HIDDEN?">false</data>
+<data key="XCOR">16.185412230055423</data>
+<data key="SIZE">1</data>
+<data key="NODE_ID">2369234</data>
+<data key="HEADING">0</data>
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="PEN-SIZE">1</data>
+<data key="PEN-MODE">up</data>
+<data key="COLOR">15</data>
+<data key="LABEL"></data>
+<data key="BREED">nodes</data>
+<data key="WHO">0</data>
+</node>
+<node id="node 1">
+<data key="YCOR">-10.36002380507526</data>
+<data key="HIDDEN?">false</data>
+<data key="XCOR">-6.300551191528716</data>
+<data key="SIZE">1</data>
+<data key="NODE_ID">2372344</data>
+<data key="HEADING">0</data>
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="PEN-SIZE">1</data>
+<data key="PEN-MODE">up</data>
+<data key="COLOR">15</data>
+<data key="LABEL"></data>
+<data key="BREED">nodes</data>
+<data key="WHO">1</data>
+</node>
+<node id="node 2">
+<data key="YCOR">-2.2011819536665485</data>
+<data key="HIDDEN?">false</data>
+<data key="XCOR">5.881380203976958</data>
+<data key="SIZE">1</data>
+<data key="NODE_ID">2375082</data>
+<data key="HEADING">0</data>
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="PEN-SIZE">1</data>
+<data key="PEN-MODE">up</data>
+<data key="COLOR">15</data>
+<data key="LABEL"></data>
+<data key="BREED">nodes</data>
+<data key="WHO">2</data>
+</node>
+<node id="node 3">
+<data key="YCOR">0.8631173773164732</data>
+<data key="HIDDEN?">false</data>
+<data key="XCOR">0.9240190375496076</data>
+<data key="SIZE">1</data>
+<data key="NODE_ID">2375235</data>
+<data key="HEADING">0</data>
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="PEN-SIZE">1</data>
+<data key="PEN-MODE">up</data>
+<data key="COLOR">15</data>
+<data key="LABEL"></data>
+<data key="BREED">nodes</data>
+<data key="WHO">3</data>
+</node>
+<node id="node 4">
+<data key="YCOR">-16.048942395842893</data>
+<data key="HIDDEN?">false</data>
+<data key="XCOR">12.537576781873227</data>
+<data key="SIZE">1</data>
+<data key="NODE_ID">2375077</data>
+<data key="HEADING">0</data>
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="PEN-SIZE">1</data>
+<data key="PEN-MODE">up</data>
+<data key="COLOR">15</data>
+<data key="LABEL"></data>
+<data key="BREED">nodes</data>
+<data key="WHO">4</data>
+</node>
+<node id="node 5">
+<data key="YCOR">0</data>
+<data key="HIDDEN?">false</data>
+<data key="XCOR">0</data>
+<data key="SIZE">1</data>
+<data key="NODE_ID">0</data>
+<data key="HEADING">0</data>
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="PEN-SIZE">1</data>
+<data key="PEN-MODE">up</data>
+<data key="COLOR">15</data>
+<data key="LABEL"></data>
+<data key="BREED">nodes</data>
+<data key="WHO">5</data>
+</node>
+<node id="node 6">
+<data key="YCOR">3.349573013552251</data>
+<data key="HIDDEN?">false</data>
+<data key="XCOR">9.065673240038514</data>
+<data key="SIZE">1</data>
+<data key="NODE_ID">2375083</data>
+<data key="HEADING">0</data>
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="PEN-SIZE">1</data>
+<data key="PEN-MODE">up</data>
+<data key="COLOR">15</data>
+<data key="LABEL"></data>
+<data key="BREED">nodes</data>
+<data key="WHO">6</data>
+</node>
+<node id="node 7">
+<data key="YCOR">-6.0161323289638835</data>
+<data key="HIDDEN?">false</data>
+<data key="XCOR">-3.3260206147231863</data>
+<data key="SIZE">1</data>
+<data key="NODE_ID">2375282</data>
+<data key="HEADING">0</data>
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="PEN-SIZE">1</data>
+<data key="PEN-MODE">up</data>
+<data key="COLOR">15</data>
+<data key="LABEL"></data>
+<data key="BREED">nodes</data>
+<data key="WHO">7</data>
+</node>
+<node id="node 8">
+<data key="YCOR">5.382528471907766</data>
+<data key="HIDDEN?">false</data>
+<data key="XCOR">-6.174100294573762</data>
+<data key="SIZE">1</data>
+<data key="NODE_ID">2380987</data>
+<data key="HEADING">0</data>
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="PEN-SIZE">1</data>
+<data key="PEN-MODE">up</data>
+<data key="COLOR">15</data>
+<data key="LABEL"></data>
+<data key="BREED">nodes</data>
+<data key="WHO">8</data>
+</node>
+<node id="node 9">
+<data key="YCOR">10.076055312423941</data>
+<data key="HIDDEN?">false</data>
+<data key="XCOR">12.81204747836968</data>
+<data key="SIZE">1</data>
+<data key="NODE_ID">2375806</data>
+<data key="HEADING">0</data>
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="PEN-SIZE">1</data>
+<data key="PEN-MODE">up</data>
+<data key="COLOR">15</data>
+<data key="LABEL"></data>
+<data key="BREED">nodes</data>
+<data key="WHO">9</data>
+</node>
+<node id="node 10">
+<data key="YCOR">11.928243499817643</data>
+<data key="HIDDEN?">false</data>
+<data key="XCOR">-13.974269966140458</data>
+<data key="SIZE">1</data>
+<data key="NODE_ID">2381760</data>
+<data key="HEADING">0</data>
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="PEN-SIZE">1</data>
+<data key="PEN-MODE">up</data>
+<data key="COLOR">15</data>
+<data key="LABEL"></data>
+<data key="BREED">nodes</data>
+<data key="WHO">10</data>
+</node>
+<node id="node 11">
+<data key="YCOR">7.902316736110029</data>
+<data key="HIDDEN?">false</data>
+<data key="XCOR">-9.054172017569169</data>
+<data key="SIZE">1</data>
+<data key="NODE_ID">2381758</data>
+<data key="HEADING">0</data>
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="PEN-SIZE">1</data>
+<data key="PEN-MODE">up</data>
+<data key="COLOR">15</data>
+<data key="LABEL"></data>
+<data key="BREED">nodes</data>
+<data key="WHO">11</data>
+</node>
+<node id="node 12">
+<data key="YCOR">8.291852968719196</data>
+<data key="HIDDEN?">false</data>
+<data key="XCOR">-9.751105272793628</data>
+<data key="SIZE">1</data>
+<data key="NODE_ID">2381759</data>
+<data key="HEADING">0</data>
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="PEN-SIZE">1</data>
+<data key="PEN-MODE">up</data>
+<data key="COLOR">15</data>
+<data key="LABEL"></data>
+<data key="BREED">nodes</data>
+<data key="WHO">12</data>
+</node>
+<node id="node 13">
+<data key="YCOR">7.176737518079234</data>
+<data key="HIDDEN?">false</data>
+<data key="XCOR">-9.637395392912392</data>
+<data key="SIZE">1</data>
+<data key="NODE_ID">2381744</data>
+<data key="HEADING">0</data>
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="PEN-SIZE">1</data>
+<data key="PEN-MODE">up</data>
+<data key="COLOR">15</data>
+<data key="LABEL"></data>
+<data key="BREED">nodes</data>
+<data key="WHO">13</data>
+</node>
+<node id="node 14">
+<data key="YCOR">11.837660391953815</data>
+<data key="HIDDEN?">false</data>
+<data key="XCOR">-15.210989535453212</data>
+<data key="SIZE">1</data>
+<data key="NODE_ID">2381762</data>
+<data key="HEADING">0</data>
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="PEN-SIZE">1</data>
+<data key="PEN-MODE">up</data>
+<data key="COLOR">15</data>
+<data key="LABEL"></data>
+<data key="BREED">nodes</data>
+<data key="WHO">14</data>
+</node>
+<node id="node 15">
+<data key="YCOR">10.110474070558652</data>
+<data key="HIDDEN?">false</data>
+<data key="XCOR">-16.49999999999732</data>
+<data key="SIZE">1</data>
+<data key="NODE_ID">2381846</data>
+<data key="HEADING">0</data>
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="PEN-SIZE">1</data>
+<data key="PEN-MODE">up</data>
+<data key="COLOR">15</data>
+<data key="LABEL"></data>
+<data key="BREED">nodes</data>
+<data key="WHO">15</data>
+</node>
+<node id="node 16">
+<data key="YCOR">16.04894239575717</data>
+<data key="HIDDEN?">false</data>
+<data key="XCOR">-3.9543045198918545</data>
+<data key="SIZE">1</data>
+<data key="NODE_ID">2381778</data>
+<data key="HEADING">0</data>
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="PEN-SIZE">1</data>
+<data key="PEN-MODE">up</data>
+<data key="COLOR">15</data>
+<data key="LABEL"></data>
+<data key="BREED">nodes</data>
+<data key="WHO">16</data>
+</node>
+<node id="node 17">
+<data key="YCOR">11.0915687039007</data>
+<data key="HIDDEN?">false</data>
+<data key="XCOR">-15.7439140255114</data>
+<data key="SIZE">1</data>
+<data key="NODE_ID">2381761</data>
+<data key="HEADING">0</data>
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="PEN-SIZE">1</data>
+<data key="PEN-MODE">up</data>
+<data key="COLOR">15</data>
+<data key="LABEL"></data>
+<data key="BREED">nodes</data>
+<data key="WHO">17</data>
+</node>
+<edge source="node 13" target="node 8">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 13)</data>
+<data key="COLOR">5</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 8)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+</graph>
+</graphml>

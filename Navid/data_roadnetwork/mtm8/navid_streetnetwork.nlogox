@@ -4,22 +4,28 @@
 
 breed [nodes node]
 nodes-own [node_id]
-links-own [street_len is_bikelane]
+
+directed-link-breed [edges edge]
+edges-own [from_node to_node street_len is_bikelane]
 
 to setup
   clear-all
 
   ; load from GraphML
-  nw:load-graphml "pg_full3.graphml"
+  nw:set-context nodes edges
+  nw:load-graphml "pg_full4.graphml"
   
   ask nodes [set color red]
-  ask links [set hidden? true]
+  ask edges [set hidden? true]
+  
+  ; Fix the who whoe
+    
 end
 
 </code>
   <widgets>
-    <view x="94" wrappingAllowedX="true" y="94" frameRate="30.0" minPycor="-225" height="820" showTickCounter="true" patchSize="1.81" fontSize="10" wrappingAllowedY="true" width="1399" tickCounterLabel="ticks" maxPycor="225" updateMode="0" maxPxcor="385" minPxcor="-385"></view>
-    <button x="1520" y="95" height="41" disableUntilTicks="false" forever="false" kind="Observer" width="51" display="setup">setup</button>
+    <view x="94" wrappingAllowedX="false" y="94" frameRate="30.0" minPycor="-225" height="820" showTickCounter="true" patchSize="1.81" fontSize="10" wrappingAllowedY="false" width="1399" tickCounterLabel="ticks" maxPycor="225" updateMode="0" maxPxcor="385" minPxcor="-385"></view>
+    <button x="1520" y="95" height="41" disableUntilTicks="false" forever="false" kind="Observer" width="55" display="setup">setup</button>
   </widgets>
   <info>## WHAT IS IT?
 

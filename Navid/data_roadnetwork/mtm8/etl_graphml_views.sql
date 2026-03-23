@@ -93,7 +93,9 @@ select xmlagg(xmlelement(name edge,
 		xmlconcat(
 			xmlelement(name data, xmlattributes('END1' as key), '(node '||fn.who||')'),
 			xmlelement(name data, xmlattributes('END2' as key), '(node '||tn.who||')'),
-			xmlelement(name data, xmlattributes('BREED' as key), 'links'),
+			xmlelement(name data, xmlattributes('BREED' as key), 'edges'),
+			xmlelement(name data, xmlattributes('FROM_NODE' as key), fromnode),
+			xmlelement(name data, xmlattributes('TO_NODE' as key), tonode),
 			xmlelement(name data, xmlattributes('STREET_LEN' as key), street_length),
 			xmlelement(name data, xmlattributes('IS_BIKELANE' as key), is_bikelane::bool)
 		))
@@ -131,6 +133,8 @@ select xmlserialize(document xmlconcat('<?xml version="1.0" encoding="UTF-8"?>':
 		<key id="LABEL" for="edge" attr.name="LABEL" attr.type="string"/>
 		<key id="BREED" for="edge" attr.name="BREED" attr.type="string"/>
 		<key id="THICKNESS" for="edge" attr.name="THICKNESS" attr.type="double"/>
+		<key id="FROM_NODE" for="edge" attr.name="FROM_NODE" attr.type="double"/>
+		<key id="TO_NODE" for="edge" attr.name="TO_NODE" attr.type="double"/>
 		<key id="STREET_LEN" for="edge" attr.name="STREET_LEN" attr.type="double"/>
   		<key id="IS_BIKELANE" for="edge" attr.name="IS_BIKELANE" attr.type="boolean"/>$$::xml,
 		xmlelement(name graph, xmlattributes('directed' as edgedefault), nodes, streets)
@@ -174,7 +178,9 @@ select xmlagg(xmlelement(name edge,
 		xmlconcat(
 			xmlelement(name data, xmlattributes('END1' as key), '(node '||fn.who||')'),
 			xmlelement(name data, xmlattributes('END2' as key), '(node '||tn.who||')'),
-			xmlelement(name data, xmlattributes('BREED' as key), 'links'),
+			xmlelement(name data, xmlattributes('BREED' as key), 'edges'),
+			xmlelement(name data, xmlattributes('FROM_NODE' as key), fromnode),
+			xmlelement(name data, xmlattributes('TO_NODE' as key), tonode),
 			xmlelement(name data, xmlattributes('STREET_LEN' as key), street_length),
 			xmlelement(name data, xmlattributes('IS_BIKELANE' as key), is_bikelane::bool)
 		))
@@ -213,6 +219,8 @@ select xmlconcat('<?xml version="1.0" encoding="UTF-8"?>'::xml,
 		<key id="LABEL" for="edge" attr.name="LABEL" attr.type="string"/>
 		<key id="BREED" for="edge" attr.name="BREED" attr.type="string"/>
 		<key id="THICKNESS" for="edge" attr.name="THICKNESS" attr.type="double"/>
+		<key id="FROM_NODE" for="edge" attr.name="FROM_NODE" attr.type="double"/>
+		<key id="TO_NODE" for="edge" attr.name="TO_NODE" attr.type="double"/>
 		<key id="STREET_LEN" for="edge" attr.name="STREET_LEN" attr.type="double"/>
   		<key id="IS_BIKELANE" for="edge" attr.name="IS_BIKELANE" attr.type="boolean"/>$$::xml,
 		xmlelement(name graph, xmlattributes('directed' as edgedefault), nodes, streets, streets_rev)
